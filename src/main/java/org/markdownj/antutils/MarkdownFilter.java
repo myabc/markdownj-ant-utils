@@ -46,7 +46,7 @@ import org.markdownj.MarkdownProcessor;
  * <pre><code>
  * &lt;copy file="${src.file}" tofile="${dest.file}"&gt;
  *   &lt;filterchain&gt;
- *     &lt;filterreader classname="org.markdownj.MarkdownFilter"/&gt;
+ *     &lt;filterreader classname="org.markdownj.antutils.MarkdownFilter"/&gt;
  *   &lt;/filterchain&gt;
  * &lt;/copy&gt;
  * </code></pre>
