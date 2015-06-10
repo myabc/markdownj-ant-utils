@@ -81,8 +81,8 @@ public class MarkdownFilter extends BaseParamFilterReader implements ChainableRe
     /**
      * Creates a new filtered reader.
      *
-     * @param in A Reader object providing the underlying stream.
-     *           Must not be <code>null</code>.
+     * @param reader A Reader object providing the underlying stream.
+     *               Must not be <code>null</code>.
      */
     public MarkdownFilter(Reader reader) {
         super(reader);
@@ -92,8 +92,8 @@ public class MarkdownFilter extends BaseParamFilterReader implements ChainableRe
      * Creates a new MarkdownFilter using the passed in
      * Reader for instantiation.
      *
-     * @param rdr A Reader object providing the underlying stream.
-     *            Must not be <code>null</code>.
+     * @param reader A Reader object providing the underlying stream.
+     *               Must not be <code>null</code>.
      *
      * @return a new filter based on this configuration, but filtering
      *         the specified reader
@@ -111,8 +111,8 @@ public class MarkdownFilter extends BaseParamFilterReader implements ChainableRe
      * @return the next character in the resulting stream, or -1
      * if the end of the resulting stream has been reached
      *
-     * @exception IOException if the underlying stream throws an IOException
-     * during reading
+     * @exception java.io.IOException if the underlying stream throws an
+     * IOException during reading
      */
     @Override
     public final int read() throws java.io.IOException {
