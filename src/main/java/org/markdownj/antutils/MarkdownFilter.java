@@ -38,7 +38,7 @@ package org.markdownj.antutils;
 import java.io.Reader;
 import org.apache.tools.ant.filters.BaseParamFilterReader;
 import org.apache.tools.ant.filters.ChainableReader;
-import org.markdown.MarkdownProcessor;
+import org.markdownj.MarkdownProcessor;
 
 /**
  * Provides a Markdown-based FilterReader suitable for use by Ant.
