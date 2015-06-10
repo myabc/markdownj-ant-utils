@@ -43,13 +43,13 @@ import org.markdownj.MarkdownProcessor;
 /**
  * Provides a Markdown-based FilterReader suitable for use by Ant.
  *
- * <code><pre>
+ * <pre><code>
  * &lt;copy file="${src.file}" tofile="${dest.file}"&gt;
  *   &lt;filterchain&gt;
  *     &lt;filterreader classname="org.markdownj.MarkdownFilter"/&gt;
  *   &lt;/filterchain&gt;
  * &lt;/copy&gt;
- * </pre></code>
+ * </code></pre>
  * @author <a href="http://www.martiansoftware.com/contact.html">Marty Lamb</a>
  */
 public class MarkdownFilter extends BaseParamFilterReader implements ChainableReader {
